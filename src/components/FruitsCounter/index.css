@@ -1,0 +1,53 @@
+/* Write your CSS here */
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffd569;
+  height: 100vh;
+}
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+}
+.head1 {
+  font-family: Roboto;
+  font-size: 42px;
+  color: black;
+  text-align: center;
+}
+.spanEl{
+  font-family: Roboto;
+  font-size: 42px;
+  color:  #ffd569;
+}
+.fruitContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.img1 {
+  height: 200px;
+  margin-bottom: 50px;
+}
+.mango {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.btn1 {
+  background-color: #007bff;
+  border: 0px;
+  height: 50px;
+  padding: 10px;
+  font-family: Roboto;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
